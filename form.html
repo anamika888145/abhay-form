@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            height: 00px;
+            max-width: 1000px;
+            background-color: #ffffff;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            font-weight: bold;
+            background-color: #ffffff;
+        }
+
+        td {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name & ID</th>
+                <th>Course Name</th>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Role</th>
+                <th>Signature</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- rowspan="4" use kiya gaya hai kyunki yeh fields 4 rows tak extend ho rahi hain -->
+                <td rowspan="4">Online Quiz Application</td>
+                <td rowspan="4" style="text-align: center;">BATCHELOR <br> OF <br> TECHNOLOGY</td>
+                <td>2512140100001</td>
+                <td>Abhay Kumar Maurya</td>
+                <td>Team leader/<br>Frontend developer</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2512140100052</td>
+                <td>Sanjeev Kumar</td>
+                <td>Backend developer</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2512140100041</td>
+                <td>Piyoosh Yadav</td>
+                <td>Database & Admin module</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2512140100065</td>
+                <td>Sumit</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
